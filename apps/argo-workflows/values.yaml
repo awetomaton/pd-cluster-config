@@ -1014,7 +1014,7 @@ ingress:
   apiVersion: ""
   ## @param ingress.hostname Default host for the ingress record
   ##
-  hostname: workflows.rancher.awetomatom.com
+  hostname: workflows.rancher.awetomaton.com
   ## @param ingress.path Default path for the ingress record
   ## NOTE: You may need to set this to '/*' in order to use this with ALB ingress controllers
   ##
