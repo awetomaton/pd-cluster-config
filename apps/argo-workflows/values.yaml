@@ -173,7 +173,7 @@ server:
   ## @param server.rbac.create Create RBAC resources for the Argo workflows server
   ##
   rbac:
-    create: true
+    create: false
   ## @param server.extraArgs Extra arguments for the server command line
   ##
   extraArgs: ""
@@ -223,7 +223,7 @@ server:
       ## Create RBAC resources for SSO
       ##
       rbac:
-        enabled: true
+        enabled: false
         ## When present, restricts secrets the server can read to a given list.
         ## You can use it to restrict the server to only be able to access the
         ## service account token secrets that are associated with service accounts
@@ -585,7 +585,7 @@ controller:
   ## @param controller.rbac.create Create RBAC resources for the Argo workflows controller
   ##
   rbac:
-    create: true
+    create: false
 
   ## Use an existing configmap instead of creating a configmap with the specified parameters
   ## @param controller.existingConfigMap
@@ -1115,7 +1115,7 @@ workflows:
   ## @param workflows.rbac.create Whether to create RBAC resource to run workflows
   ##
   rbac:
-    create: true
+    create: false
 
 ## @section PostgreSQL subchart
 ##
