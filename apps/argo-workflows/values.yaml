@@ -704,7 +704,7 @@ controller:
   ## Ref: https://argoproj.github.io/argo-workflows/workflow-executors/
   ## @param controller.containerRuntimeExecutor Specifies the container runtime for the executor
   ##
-  containerRuntimeExecutor: k8sapi
+  containerRuntimeExecutor: emissary
 
   ## @param controller.clusterWorkflowTemplates.enabled Whether to create a ClusterRole and Cluster Role Binding to access ClusterWokflowTemplates resources
   ##
